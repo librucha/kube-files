@@ -4,3 +4,4 @@ metadata:
   name: app-tags
 data:
   environment: test
+  templated-ns: '{{ argocdEnv "NAMESPACE" "monitoring" }}'
